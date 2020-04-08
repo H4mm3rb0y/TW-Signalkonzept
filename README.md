@@ -5,12 +5,12 @@
 - Die automatisierte Ausfahrt aus einem Block ist nur möglich, 
   - wenn eine Fahrstraße mit all ihren Bedingungen geblockt werden kann.
   - wenn der nachfolgende Block frei ist
-- Ein Block verfügt in jede Richtung, in der automatisiert ein- und ausgefahren sind einen Gleiskontakt
+- Ein Block verfügt in jede Richtung, in der automatisiert ein- und ausgefahren werden kann, einen Gleiskontakt
 ---
 # Fahrstraße
 - Eine Fahrstraße ist ein Gleisabschnitt, die genau zwei Blöcke direkt miteinander verbindet. 
-- Eine Fahrstraße besteht aus Weichen, die für die Fahrstraße geblockt werden müssen
-- Kann eine der Weichen nicht geblockt werden, kann die Fahrstraße nicht eingelegt werden.
+- Eine Fahrstraße besteht aus Weichen, die für die Fahrstraße gesperrt werden müssen
+- Kann eine der Weichen nicht gesperrrt werden, kann die Fahrstraße nicht eingelegt werden.
 - Aufeinanderfolgende Blöcke ohne Weichen können eine Fahrstraße ohne Weichen enthalten
 - Eine Fahrstraße mit all Ihren komponenten kann erst dann aufgehoben werden, wenn der Zug vollständig im Zielblock angekommen ist
 ---
