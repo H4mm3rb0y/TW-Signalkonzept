@@ -20,6 +20,7 @@
 - Bei Sperrfahrten wird die Weiche manuell geblockt, damit eine Fahrstraße über sie nicht mehr eingelegt werden kann
 - Erst nach beendigung der Sperrfahrt darf die Blockierung aller überfahrenden Weichen aufgehoben werden
 - Der Block aus dem die Sperrfahrt begang, darf erst freigegeben werden, wenn die Sperrfahrt abgeschlossen ist und der Zug sich in einem regulären Block befindet
+- Weichen werden in Kilometrierungsrichtung hochnummeriert.
 ---
 # Abstellgleise
 - Abstellgleise stellen nichts anderes wie Blöcke dar
@@ -30,6 +31,19 @@
 - Die Ausfahrt aus Blöcken erfolgt immer mithilfe eines Signals.
 - Ist bei einer Sperrfahrt kein Sperrsignal vorhanden oder die Signalanlage gesperrt, erfolgt die Ausfahrt in jedem Fall nur 
 manuel nach zusage eines Stellwerkers
+- 
+
+Bezeichnungen:
+- Einfachsignale in Kilometrierungsrichtung: A1, A2, A3..
+- Ausfahrsignale in Kilometrierungsrichtung: P1, P2, P3..
+- Einfahrsignale gegen Kilometrierungsrich.: F1, F2, F3..
+- Ausfahrsignale gegen Kilometrierungsrich.: N1, N2, N3..
+- Zwischensignale in Kilometrierungsrichtung: ZR, ZS, ZT..
+- Zwischensignale gegen Kilometrierungsrichtung: ZU, ZV, ZW..
+- Blocksignale in Kilometrierungsrichtung: A1, A3, A5, A7..
+- Blocksignale gegen Kilometrierungsrichtung B2, B4, B6, B8.. (Dabei ist A1 immer neben B2, A3 neben B4 usw.)
+- Vorsignale erhalten ein v vor der Berzeichnung und heißen so wie das zugehörige Hauptsignal in Kleinschrift.
+- Sperrsignale werden so wie das gleich nummeriert mit einem Ls davor. In kilometrierungsrichtung wird ein X ergänzt, gegen ein Y. Bsp: Ls 32X
 ---
 # Kontakte
 - Gleiskontakte sind Mikrocontroller, die melden sobald Ein  Zug einen bestimmten Abschnitt betreten oder vollständig verlassen hat.
